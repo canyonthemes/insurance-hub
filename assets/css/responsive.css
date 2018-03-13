@@ -1,0 +1,204 @@
+@media screen and (max-width: 1500px) {
+	.about-section {
+		background: #fff !important;
+		background-image: none;
+	}
+	.banner-section .top-space {
+	    padding: 120px 0px 0px;
+	    margin-right: 0px !important;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.menu-primary-container .navbar-nav li {
+	    margin-left: 15px;
+	}
+	.related-post .col-sm-4.col-md-4 {
+		width: 31.8% !important;
+	}
+	.site-title a {
+	    font-size: 22px !important;
+	}
+	.site-description {
+	    font-size: 11px !important;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	button.navigation-toggler {
+		display: block;
+	}
+	.banner .banner-form {
+		display: none;
+	}
+	img{
+		width: 100%;
+	}
+	.navbar-brand .logo-link img {
+	    width: auto;
+	}
+	.navbar-toggle .icon-bar{
+		color: #000 !important;
+		background: #000;
+	}
+	#testimonial #testimonial-carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+  }
+  .related-post .col-sm-4.col-md-4 {
+		width: 48.5% !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+	h1,.h1, .page-header h1 span{
+		font-size: 30px;
+	}
+	.navbar-collapse{
+		margin: 0 !important;
+	}
+	.navbar-nav li{
+		margin-left: 0;
+		text-align: left;
+	}
+	.navbar-nav{
+		margin:10px 0;
+	}
+	.m-l-20{
+		margin-left: 0;
+	}
+	.footer-section .section-header h1{
+		font-size: 25px;
+	}
+	.btn-theme{
+		margin-bottom: 20px;
+	}
+	.banner-section .titles h1{
+		font-size: 40px
+	}
+	.banner-section .grow{
+		font-size: 25px;
+	}
+	button.navigation-toggler {
+		display: block;
+	}
+
+	.process .content .des{
+		margin-bottom: 20px;
+	}
+	.purchase-now .items {
+	    line-height: 45px !important;
+	}
+
+	#bottom-bar .container p {
+		line-height: 37px;
+	}
+	footer .container .col-lg-12 button {
+		font-size: 17px;
+		padding: 0px 15px;
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}
+	.navbar-toggle .icon-bar{
+		color: #000 !important;
+		background: #000;
+	}
+	.navbar-toggle {
+	 padding: 10px;
+	}
+	#bs-navbar{
+		width: 100% !important;
+	}
+	#testimonial #testimonial-carousel p {
+	    font-size: 20px;
+	    line-height: 24px;
+	}
+	#testimonial #testimonial-carousel .carousel-indicators {
+	bottom: -20px !important;
+	}
+	#testimonial #testimonial-carousel .carousel-indicators li {
+		display: inline-block;
+		margin: 0px 5px;
+		width: 15px;
+		height: 15px;
+	}
+	#testimonial #testimonial-carousel .carousel-indicators li.active {
+		margin: 0px 5px;
+		width: 20px;
+		height: 20px;
+	}
+	.team-section .team-list .item:nth-child(1),
+	.team-section .team-list .item:nth-child(2),
+	.team-section .team-list .item:nth-child(3),
+	.team-section .team-list .item:nth-child(4){
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.why-list{
+		padding: 0 15px;
+	}
+	.foot-widget{
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+	.footer-sidebars .footer-sidebars-bg{
+		width: 100%;
+	}
+	.banner-section .carousel-control,
+	.banner-section .carousel-control i{
+		display: none;
+	}
+	.sidebar {
+		margin-top: 30px;
+	}
+	.post-thumbnail {
+		margin-bottom: 15px;
+	}
+	.related-post .col-sm-4.col-md-4 {
+		width: 100% !important;
+  	}
+  	.navbar-brand {
+	    padding: 10px 15px !important;
+	}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	footer .widget img.positioned {
+		margin-top: 10px;
+	}
+	img{
+		width: 100%;
+		height: auto;
+	}
+	footer .widget img.positioned {
+		margin-top: 0;
+		position: relative;
+		top: 53px;
+	}
+	.team-section .team-list .item:nth-child(1),
+	.team-section .team-list .item:nth-child(2),
+	.team-section .team-list .item:nth-child(3),
+	.team-section .team-list .item:nth-child(4){
+		width: 45%;
+		float: left;
+	}
+	.team-section .team-list .item:nth-child(1),
+	.team-section .team-list .item:nth-child(3){
+		margin-right: 10px;
+	}
+	.team-section .team-list .item:nth-child(2),
+	.team-section .team-list .item:nth-child(4){
+		margin-left: 10px;
+	}
+}
+
+
+@media only screen and (max-width: 480px){
+
+.section-header h1::before{
+	border-bottom: 0;
+}
+}
